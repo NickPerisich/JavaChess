@@ -138,7 +138,7 @@ public class BoardImpl implements Board {
 					Piece p = getPiece(end);
 					if (!(((King) p).isCheck(this, end))) {
 						if (!(isPossMoves(end))) {
-							System.out.println("CHECKMATA");
+							//System.out.println("CHECKMATA");
 						}
 					}
 				}
